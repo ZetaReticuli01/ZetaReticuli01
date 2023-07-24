@@ -168,7 +168,7 @@ def highlight_post_info(i):
 def post_info():
 
     if is_private:
-        print(f"{fa} {gr}cannot use -p for private accounts !\n")
+        print(f"{fa} {gr}can use -p for private accounts !\n")
         sys.exit(1)
 
     posts = []
