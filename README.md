@@ -7,7 +7,7 @@ import sys
 from local import *
 
 resp_js = None
-is_private = False
+is_private = True
 total_uploads = 12
 
 def proxy_session():
